@@ -9,8 +9,9 @@ import testBase.BaseClass;
 public class TC_001_UserInfoValidation extends BaseClass{
 	
 	@Test
-	public void verify_userInfo() {
+	public void verify_userInfo()  {
 		BeCognizantPage be = new BeCognizantPage(driver);
+		be.clickUserInfo();
 		String userName = be.getUserName();
 		String userId = be.getUserId();
 		
@@ -19,6 +20,7 @@ public class TC_001_UserInfoValidation extends BaseClass{
 		
 		Assert.assertEquals(true, userName.equals(Name)&& userId.equals(Id),"The username and userid is not valid!");
 		
+		be.clickOneCognizant();
 	}
 	
 

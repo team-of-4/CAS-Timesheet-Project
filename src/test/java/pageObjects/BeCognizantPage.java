@@ -30,12 +30,8 @@ public class BeCognizantPage extends BasePage {
 	@FindBy(xpath="//div[@title='OneCognizant']")
 	WebElement btnOneCognizant;
 
-	public void clickUserInfo() throws InterruptedException {
-		
-//		WebDriverWait wt = new WebDriverWait(driver,Duration.ofSeconds(20));
-//		
-//		wt.until(ExpectedConditions.elementToBeClickable(btnUserInfo));
-		
+	public void clickUserInfo() {
+				
 		btnUserInfo.click();
 	}
 	

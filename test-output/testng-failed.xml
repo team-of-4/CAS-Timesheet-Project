@@ -6,7 +6,6 @@
       <class name="testCases.TC_001_UserInfoValidation">
         <methods>
           <include name="verify_userInfo"/>
-          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_001_UserInfoValidation -->

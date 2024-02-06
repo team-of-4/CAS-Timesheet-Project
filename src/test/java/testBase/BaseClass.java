@@ -22,9 +22,9 @@ public class BaseClass {
 		
 	}
 	
-	@AfterClass
-	public void tearDown() {
-		driver.close();
-	}
+//	@AfterClass
+//	public void tearDown() {
+//		driver.close();
+//	}
 
 }
