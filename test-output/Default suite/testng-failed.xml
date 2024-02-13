@@ -6,7 +6,14 @@
       <class name="testCases.TC_001_UserInfoValidation">
         <methods>
           <include name="verify_userInfo"/>
+          <include name="TC_005_verifySearchField"/>
+          <include name="TC_004_validateTimesheets"/>
+          <include name="TC_006_verifyCurrentDateTimesheet"/>
+          <include name="TC_003_verifyNavigatedToTimesheet"/>
           <include name="setup"/>
+          <include name="TC_007_verifyApprovedStatus"/>
+          <include name="TC_002_OneCognizant"/>
+          <include name="TC_008_verifyOverdueStatus"/>
         </methods>
       </class> <!-- testCases.TC_001_UserInfoValidation -->
     </classes>
